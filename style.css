@@ -8,12 +8,12 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  max-width: 2042px;
 }
 /* Header Styles */
 .header-section {
     width: 100% auto;
     height: 92px;
-    max-width: 1600px;
     background-color: #FFFFFF;
     margin: 0 auto;
 }
@@ -50,5 +50,12 @@ nav {
 }
 .btn:hover {
         background-color: #36754C;
-    }
+}
+/* Banner Section Styles */
+#banner {
+    width: 100% auto;
+    height: 1363px;
+    background-color: #001931cc;
+    margin: 0 auto;
 
+}
