@@ -174,17 +174,18 @@ nav {
     letter-spacing: 0%;
     text-align: center;
 }
+
 #card-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
 .notes-image {
     width: 32px;
     height: 32px;
 
-    background-color: red; 
+    background-color: red;
 
     -webkit-mask-image: url("./assets/Vector.png");
     -webkit-mask-repeat: no-repeat;
@@ -197,11 +198,12 @@ nav {
     mask-size: contain;
     align-items: center;
 }
+
 .bookmark-image {
     width: 32px;
     height: 32px;
 
-    background-color: red; 
+    background-color: red;
 
     -webkit-mask-image: url("./assets/Bookmarks.png");
     -webkit-mask-repeat: no-repeat;
@@ -214,11 +216,12 @@ nav {
     mask-size: contain;
     align-items: center;
 }
+
 .no-idea-image {
     width: 32px;
     height: 32px;
 
-    background-color: red; 
+    background-color: red;
 
     -webkit-mask-image: url("./assets/Brain.png");
     -webkit-mask-repeat: no-repeat;
@@ -231,11 +234,12 @@ nav {
     mask-size: contain;
     align-items: center;
 }
+
 .info-image {
     width: 32px;
-    height: 32px;   
+    height: 32px;
 
-    background-color: red; 
+    background-color: red;
 
     -webkit-mask-image: url("./assets/Info.png");
     -webkit-mask-repeat: no-repeat;
@@ -248,7 +252,11 @@ nav {
     mask-size: contain;
     align-items: center;
 }
-.notes-card, .bookmark-card, .no-idea-card, .info-card {
+
+.notes-card,
+.bookmark-card,
+.no-idea-card,
+.info-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,24 +265,90 @@ nav {
     width: 322px;
     height: 300px;
 }
-.notes-text, .bookmark-text, .no-idea-text, .info-text {
+
+.notes-text,
+.bookmark-text,
+.no-idea-text,
+.info-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
     text-align: center;
 }
-.notes-text h3, .bookmark-text h3, .no-idea-text h3, .info-text h3 {
+
+.notes-text h3,
+.bookmark-text h3,
+.no-idea-text h3,
+.info-text h3 {
     color: rgba(0, 25, 49, 1);
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
 }
-.notes-text p, .bookmark-text p, .no-idea-text p, .info-text p {
+
+.notes-text p,
+.bookmark-text p,
+.no-idea-text p,
+.info-text p {
     color: rgba(98, 115, 130, 1);
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* Second Brain Section */
+.second-brain-section {
+    width: 100%;
+    height: 840px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    padding: 120px 120px 120px 120px;
+}
+
+.second-brain-image {
+    width: 600px;
+    height: 600px;
+}
+.second-brain-right h4{
+    color: rgba(70, 145, 101, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.second-brain-right h2 {
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 16px 0 16px 0;
+}
+.second-brain-right p {
+    color: rgba(98, 115, 130, 1);
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 16px 0 16px 0;
+    text-wrap: wrap;
+}
+.second-brain-right-text {
+    width: 700px;
+    height: 128px;
+    color: rgba(0, 25, 49, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
 }
